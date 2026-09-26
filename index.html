@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Samant Beach Resort &amp; Villa | Luxury Wooden Cottages at Bhogwe Beach, Sindhudurg</title>
+  <meta name="description" content="Handcrafted wooden sea-view cottages on a 3 km virgin private beach at Bhogwe, Sindhudurg. Authentic Malvani seafood, dolphin safaris, Nivati Fort treks and Konkan hospitality. Call or WhatsApp +91 93200 78755." />
+  <meta name="keywords" content="Bhogwe beach resort, Samant Beach Resort, Sindhudurg cottages, Malvan resort, Nivati Fort stay, Tarkarli beach stay, Konkan beach villa, Vengurla resort" />
+  <meta name="theme-color" content="#1E3A2B" />
+  <!-- TODO: add <link rel="canonical" href="https://your-domain/"> once the domain is live -->
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Samant Beach Resort & Villa — Bhogwe Beach, Sindhudurg" />
+  <meta property="og:description" content="Where virgin sands meet Konkan elegance. 9 handcrafted wooden cottages between coconut groves and the Arabian Sea." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1509233725247-49e657c54213?w=1200&q=80&auto=format&fit=crop" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            palm:  { 950: '#0C1A12', 900: '#12261B', 800: '#1A3325', DEFAULT: '#1E3A2B', 600: '#2C5440', 400: '#5E8A70', 200: '#B9CFC0' },
+            terra: { 700: '#8F4325', 600: '#A9532F', DEFAULT: '#C4663F', 400: '#D8875F', 200: '#EFC7AE', 100: '#F7E3D6' },
+            sand:  { 50: '#FCFAF6', 100: '#F8F2E8', DEFAULT: '#F3EADB', 300: '#E6D5BA', 500: '#C9B18C' },
+            wood:  { DEFAULT: '#7A5236', 700: '#5B3C27' },
+            foam:  '#EAF3F0',
+            ink:   '#18201B'
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['Manrope', 'system-ui', 'sans-serif']
+          },
+          letterSpacing: { widest2: '.32em' }
+        }
+      }
+    };
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js" defer></script>
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Resort",
+    "name": "Samant Beach Resort & Villa",
+    "telephone": "+91-9320078755",
+    "image": "https://images.unsplash.com/photo-1509233725247-49e657c54213?w=1200&q=80",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kolwel Wadi, Bhogwe",
+      "addressLocality": "Vengurla / Malvan",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Direct Beach Access", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Free WiFi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Restaurant", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Free Parking", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Pet Friendly", "value": true}
+    ]
+  }
+  </script>
+
+  <script>
+    // Flag JS so reveal animations only hide content when JS can show it again
+    document.documentElement.classList.add('js');
+
+    // Graceful image fallback: swap a broken image for a branded placeholder
+    function imgFallback(img) {
+      if (img.dataset.failed) return;
+      img.dataset.failed = '1';
+      var label = img.getAttribute('alt') || 'Samant Beach Resort';
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">' +
+        '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E3A2B"/><stop offset=".6" stop-color="#2C5440"/><stop offset="1" stop-color="#C4663F"/></linearGradient></defs>' +
+        '<rect width="1200" height="800" fill="url(#g)"/>' +
+        '<circle cx="880" cy="560" r="120" fill="#F3EADB" opacity=".18"/>' +
+        '<path d="M0 620 Q300 570 600 620 T1200 620 V800 H0Z" fill="#F3EADB" opacity=".14"/>' +
+        '<text x="600" y="410" text-anchor="middle" font-family="Georgia,serif" font-size="44" fill="#F3EADB" opacity=".9">' +
+        label.replace(/[<>&"]/g, '') + '</text></svg>';
+      img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+    }
+  </script>
+
+  <style>
+    :root {
+      --palm: #1E3A2B;
+      --terra: #C4663F;
+      --sand: #F3EADB;
+      --ease: cubic-bezier(.22, .61, .36, 1);
+    }
+    html { -webkit-tap-highlight-color: transparent; }
+    body { background: #FCFAF6; color: #18201B; font-family: Manrope, system-ui, sans-serif; overflow-x: hidden; }
+    ::selection { background: #C4663F; color: #fff; }
+    img { background: linear-gradient(135deg, #E6D5BA, #F3EADB); }
+
+    /* ---------- Navbar ---------- */
+    #navbar { transition: background-color .5s var(--ease), box-shadow .5s var(--ease), padding .5s var(--ease), color .4s; }
+    #navbar.scrolled {
+      background: rgba(252, 250, 246, .72);
+      -webkit-backdrop-filter: blur(18px) saturate(160%);
+      backdrop-filter: blur(18px) saturate(160%);
+      box-shadow: 0 1px 0 rgba(30, 58, 43, .08), 0 12px 40px -20px rgba(30, 58, 43, .25);
+      padding-top: .7rem; padding-bottom: .7rem;
+      color: #18201B;
+    }
+    #navbar.scrolled .nav-sub { color: #7A5236; }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: ''; position: absolute; left: 0; bottom: -6px; height: 1px; width: 100%;
+      background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .45s var(--ease);
+    }
+    .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); transform-origin: left; }
+
+    /* ---------- Glass ---------- */
+    .glass {
+      background: linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,255,255,.06));
+      -webkit-backdrop-filter: blur(16px) saturate(140%);
+      backdrop-filter: blur(16px) saturate(140%);
+      border: 1px solid rgba(255,255,255,.22);
+    }
+    .glass-light {
+      background: rgba(252, 250, 246, .82);
+      -webkit-backdrop-filter: blur(20px) saturate(150%);
+      backdrop-filter: blur(20px) saturate(150%);
+      border: 1px solid rgba(255,255,255,.6);
+    }
+
+    /* ---------- Hero ---------- */
+    .hero-img { animation: kenburns 24s ease-out forwards; transform-origin: 60% 40%; }
+    @keyframes kenburns { from { transform: scale(1.14); } to { transform: scale(1.0); } }
+    .hero-in > * { opacity: 0; transform: translateY(26px); animation: rise 1.1s var(--ease) forwards; }
+    .hero-in > *:nth-child(1) { animation-delay: .25s; }
+    .hero-in > *:nth-child(2) { animation-delay: .45s; }
+    .hero-in > *:nth-child(3) { animation-delay: .65s; }
+    .hero-in > *:nth-child(4) { animation-delay: .85s; }
+    .hero-in > *:nth-child(5) { animation-delay: 1.05s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+    .scroll-cue span { animation: cue 2.2s var(--ease) infinite; }
+    @keyframes cue { 0% { transform: translateY(-100%); } 60%, 100% { transform: translateY(260%); } }
+
+    /* ---------- Reveal on scroll ---------- */
+    .js .reveal { opacity: 0; transform: translateY(34px); transition: opacity 1s var(--ease), transform 1s var(--ease); }
+    .js .reveal.from-left { transform: translateX(-40px); }
+    .js .reveal.from-right { transform: translateX(40px); }
+    .js .reveal.zoom { transform: scale(.94); }
+    .js .reveal.in { opacity: 1; transform: none; }
+
+    /* ---------- Buttons ---------- */
+    .btn { position: relative; overflow: hidden; isolation: isolate; transition: color .4s var(--ease), border-color .4s, transform .3s var(--ease), box-shadow .4s; }
+    .btn::before {
+      content: ''; position: absolute; inset: 0; z-index: -1; border-radius: inherit;
+      transform: translateY(101%); transition: transform .5s var(--ease);
+    }
+    .btn:hover::before { transform: translateY(0); }
+    .btn:active { transform: scale(.97); }
+    .btn-terra { background: #C4663F; color: #fff; box-shadow: 0 14px 30px -14px rgba(196,102,63,.8); }
+    .btn-terra::before { background: #A9532F; }
+    .btn-ghost { color: #fff; border: 1px solid rgba(255,255,255,.55); }
+    .btn-ghost::before { background: #fff; }
+    .btn-ghost:hover { color: #1E3A2B; border-color: #fff; }
+    .btn-palm { background: #1E3A2B; color: #fff; }
+    .btn-palm::before { background: #C4663F; }
+    .btn-outline { color: #1E3A2B; border: 1px solid rgba(30,58,43,.25); }
+    .btn-outline::before { background: #1E3A2B; }
+    .btn-outline:hover { color: #fff; border-color: #1E3A2B; }
+    .btn .arrow { transition: transform .4s var(--ease); }
+    .btn:hover .arrow { transform: translateX(4px); }
+
+    /* ---------- Section eyebrow ---------- */
+    .eyebrow { display: inline-flex; align-items: center; gap: .8rem; font-size: .7rem; letter-spacing: .32em; text-transform: uppercase; font-weight: 600; color: #C4663F; }
+    .eyebrow::before { content: ''; width: 32px; height: 1px; background: currentColor; }
+
+    /* ---------- Cards ---------- */
+    .img-zoom { overflow: hidden; }
+    .img-zoom img { transition: transform 1.4s var(--ease), opacity .8s var(--ease); }
+    .group:hover .img-zoom img.primary { transform: scale(1.07); }
+    .cottage-card .alt-img { opacity: 0; }
+    .cottage-card:hover .alt-img { opacity: 1; transform: scale(1.04); }
+    .lift { transition: transform .6s var(--ease), box-shadow .6s var(--ease); }
+    .lift:hover { transform: translateY(-8px); box-shadow: 0 40px 60px -35px rgba(30,58,43,.45); }
+
+    /* Experience cards */
+    .exp-card { transition: opacity .45s var(--ease), transform .45s var(--ease); }
+    .exp-card.hide { display: none; }
+    .exp-card .exp-body { transition: transform .6s var(--ease); }
+    .exp-card .exp-more { max-height: 0; opacity: 0; transition: max-height .6s var(--ease), opacity .5s var(--ease); }
+    .exp-card:hover .exp-more, .exp-card:focus-within .exp-more { max-height: 140px; opacity: 1; }
+    @media (hover: none) { .exp-card .exp-more { max-height: 140px; opacity: 1; } }
+
+    .chip { transition: all .35s var(--ease); }
+    .chip.active { background: #1E3A2B; color: #fff; border-color: #1E3A2B; }
+
+    /* Gallery masonry */
+    .masonry { column-gap: .75rem; column-count: 2; }
+    @media (min-width: 1024px) { .masonry { column-count: 3; column-gap: 1rem; } }
+    .masonry .m-item { break-inside: avoid; margin-bottom: .75rem; }
+    @media (min-width: 1024px) { .masonry .m-item { margin-bottom: 1rem; } }
+    @media (max-width: 639px) { .masonry .m-item .font-display { font-size: 1rem; } }
+    .m-item.hide { display: none; }
+    .m-item .m-cap { transform: translateY(12px); opacity: 0; transition: all .5s var(--ease); }
+    .m-item:hover .m-cap, .m-item:focus-visible .m-cap { transform: none; opacity: 1; }
+
+    /* Testimonials track */
+    .t-track { scroll-snap-type: x mandatory; scrollbar-width: none; }
+    .t-track::-webkit-scrollbar { display: none; }
+    .t-track > * { scroll-snap-align: start; }
+
+    /* Marquee for amenities on small screens */
+    .marquee { animation: marquee 32s linear infinite; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+
+    /* Modal */
+    .modal { visibility: hidden; opacity: 0; transition: opacity .45s var(--ease), visibility .45s; }
+    .modal.open { visibility: visible; opacity: 1; }
+    .modal .modal-panel { transform: translateY(30px) scale(.98); transition: transform .6s var(--ease); }
+    .modal.open .modal-panel { transform: none; }
+    .field { transition: border-color .3s, box-shadow .3s, background-color .3s; }
+    .field:focus { outline: none; border-color: #C4663F; box-shadow: 0 0 0 4px rgba(196,102,63,.14); background: #fff; }
+
+    /* Mobile menu */
+    #mobileMenu { clip-path: circle(0% at calc(100% - 2.5rem) 2.5rem); transition: clip-path .8s var(--ease); }
+    #mobileMenu.open { clip-path: circle(150% at calc(100% - 2.5rem) 2.5rem); }
+    #mobileMenu a { opacity: 0; transform: translateY(20px); transition: all .6s var(--ease); }
+    #mobileMenu.open a { opacity: 1; transform: none; }
+    #mobileMenu.open a:nth-child(1) { transition-delay: .15s; } #mobileMenu.open a:nth-child(2) { transition-delay: .2s; }
+    #mobileMenu.open a:nth-child(3) { transition-delay: .25s; } #mobileMenu.open a:nth-child(4) { transition-delay: .3s; }
+    #mobileMenu.open a:nth-child(5) { transition-delay: .35s; } #mobileMenu.open a:nth-child(6) { transition-delay: .4s; }
+    #mobileMenu.open a:nth-child(7) { transition-delay: .45s; }
+
+    /* Grain texture for warmth */
+    .grain::after {
+      content: ''; position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    /* Wood-grain stripe used as a subtle accent */
+    .wood-grain {
+      background:
+        repeating-linear-gradient(95deg, rgba(91,60,39,.0) 0 14px, rgba(91,60,39,.07) 14px 15px, rgba(91,60,39,0) 15px 31px),
+        linear-gradient(180deg, #F8F2E8, #F3EADB);
+    }
+
+    #toTop { transform: translateY(20px); opacity: 0; pointer-events: none; transition: all .5s var(--ease); }
+    #toTop.show { transform: none; opacity: 1; pointer-events: auto; }
+
+    .pb-safe { padding-bottom: max(.75rem, env(safe-area-inset-bottom)); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+      .js .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+
+<body class="antialiased pb-[76px] md:pb-0">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-full">Skip to content</a>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header id="navbar" class="fixed inset-x-0 top-0 z-50 py-5 text-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8" aria-label="Primary">
+      <a href="#home" class="group flex items-center gap-3" aria-label="Samant Beach Resort & Villa — home">
+        <span class="grid h-10 w-10 place-items-center rounded-full border border-current/40 transition group-hover:rotate-[20deg] duration-700">
+          <i data-lucide="tree-palm" class="h-5 w-5"></i>
+        </span>
+        <span class="leading-none">
+          <span class="block font-display text-2xl font-semibold tracking-wide">Samant</span>
+          <span class="nav-sub block text-[.6rem] font-semibold uppercase tracking-[.3em] text-white/75 transition-colors">Beach Resort &amp; Villa</span>
+        </span>
+      </a>
+
+      <ul class="hidden items-center gap-9 text-[.8rem] font-medium uppercase tracking-[.18em] lg:flex">
+        <li><a class="nav-link" href="#about">Story</a></li>
+        <li><a class="nav-link" href="#cottages">Cottages</a></li>
+        <li><a class="nav-link" href="#cuisine">Cuisine</a></li>
+        <li><a class="nav-link" href="#experiences">Experiences</a></li>
+        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-3">
+        <a href="tel:+919320078755" class="hidden items-center gap-2 text-sm font-medium xl:flex">
+          <i data-lucide="phone" class="h-4 w-4"></i> +91 93200 78755
+        </a>
+        <button type="button" data-book class="btn btn-terra hidden rounded-full px-6 py-3 text-xs font-semibold uppercase tracking-[.2em] sm:inline-flex">Book Now</button>
+        <button id="menuBtn" type="button" class="grid h-11 w-11 place-items-center rounded-full border border-current/30 lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <i data-lucide="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile full-screen menu -->
+  <div id="mobileMenu" class="fixed inset-0 z-[60] flex flex-col bg-palm-900 text-sand lg:hidden" aria-hidden="true">
+    <div class="flex items-center justify-between px-5 py-5">
+      <span class="font-display text-2xl">Samant</span>
+      <button id="menuClose" type="button" class="grid h-11 w-11 place-items-center rounded-full border border-sand/30" aria-label="Close menu">
+        <i data-lucide="x" class="h-5 w-5"></i>
+      </button>
+    </div>
+    <nav class="flex flex-1 flex-col justify-center gap-5 px-8 font-display text-4xl" aria-label="Mobile">
+      <a href="#about" class="mm-link">Our Story</a>
+      <a href="#cottages" class="mm-link">Cottages</a>
+      <a href="#cuisine" class="mm-link">Malvani Cuisine</a>
+      <a href="#experiences" class="mm-link">Experiences</a>
+      <a href="#gallery" class="mm-link">Gallery</a>
+      <a href="#reviews" class="mm-link">Guest Stories</a>
+      <a href="#contact" class="mm-link">Contact</a>
+    </nav>
+    <div class="px-8 pb-10 text-sm text-sand/70">
+      <p>Bhogwe, Sindhudurg · Maharashtra</p>
+      <a href="tel:+919320078755" class="mt-1 block text-lg text-terra-200">+91 93200 78755</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ==================== HERO ==================== -->
+    <section id="home" class="relative flex min-h-[100svh] items-end overflow-hidden bg-palm-900 pb-28 pt-32 sm:items-center sm:pb-24">
+      <img src="https://images.unsplash.com/photo-1509233725247-49e657c54213?w=2200&q=80&auto=format&fit=crop"
+           srcset="https://images.unsplash.com/photo-1509233725247-49e657c54213?w=900&q=75&auto=format&fit=crop 900w,
+                   https://images.unsplash.com/photo-1509233725247-49e657c54213?w=1600&q=80&auto=format&fit=crop 1600w,
+                   https://images.unsplash.com/photo-1509233725247-49e657c54213?w=2400&q=80&auto=format&fit=crop 2400w"
+           sizes="100vw" alt="Coconut palms leaning over a pristine Konkan beach"
+           class="hero-img absolute inset-0 h-full w-full object-cover" fetchpriority="high" onerror="imgFallback(this)" />
+      <div class="absolute inset-0 bg-gradient-to-b from-palm-950/60 via-palm-950/10 to-palm-950/80"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-palm-950/60 via-transparent to-transparent"></div>
+
+      <div class="relative z-10 mx-auto w-full max-w-7xl px-5 sm:px-8">
+        <div class="hero-in max-w-3xl">
+          <p class="mb-6 inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-[.68rem] font-semibold uppercase tracking-[.28em] text-white/90">
+            <i data-lucide="map-pin" class="h-3.5 w-3.5 text-terra-200"></i> Bhogwe Beach · Sindhudurg
+          </p>
+          <h1 class="font-display text-[2.9rem] font-medium leading-[1.02] text-white sm:text-6xl lg:text-[5.4rem]">
+            Where Virgin Sands Meet <em class="font-normal text-terra-200">Konkan Elegance</em>
+          </h1>
+          <p class="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
+            Experience luxury wooden cottages nestled between pristine coconut palm groves and the Arabian Sea at Bhogwe Beach.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row sm:gap-4">
+            <a href="#cottages" class="btn btn-ghost inline-flex items-center justify-center gap-3 rounded-full px-8 py-4 text-xs font-semibold uppercase tracking-[.22em] backdrop-blur-sm">
+              Explore Cottages <i data-lucide="arrow-down" class="h-4 w-4"></i>
+            </a>
+            <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20cottage."
+               data-book target="_blank" rel="noopener"
+               class="btn btn-terra inline-flex items-center justify-center gap-3 rounded-full px-8 py-4 text-xs font-semibold uppercase tracking-[.22em]">
+              Book Your Stay <i data-lucide="arrow-right" class="arrow h-4 w-4"></i>
+            </a>
+          </div>
+
+          <!-- Glass info strip -->
+          <dl class="glass mt-12 hidden max-w-2xl grid-cols-3 divide-x divide-white/20 rounded-2xl text-white sm:grid">
+            <div class="px-6 py-5"><dt class="text-[.65rem] uppercase tracking-[.25em] text-white/65">Private Beach</dt><dd class="mt-1 font-display text-3xl">3 km</dd></div>
+            <div class="px-6 py-5"><dt class="text-[.65rem] uppercase tracking-[.25em] text-white/65">Cottages</dt><dd class="mt-1 font-display text-3xl">9 Only</dd></div>
+            <div class="px-6 py-5"><dt class="text-[.65rem] uppercase tracking-[.25em] text-white/65">Every Evening</dt><dd class="mt-1 font-display text-3xl">Sunsets</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue absolute bottom-8 left-1/2 z-10 hidden -translate-x-1/2 flex-col items-center gap-3 text-[.6rem] uppercase tracking-[.35em] text-white/70 md:flex [@media(max-height:820px)]:!hidden" aria-label="Scroll to story">
+        Scroll
+        <span class="relative block h-12 w-px overflow-hidden bg-white/25"><span class="absolute inset-x-0 top-0 block h-1/3 bg-white"></span></span>
+      </a>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="relative overflow-hidden py-24 sm:py-32">
+      <div class="mx-auto grid max-w-7xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
+        <!-- Image collage -->
+        <div class="reveal from-left relative mx-auto w-full max-w-xl">
+          <div class="aspect-[4/5] overflow-hidden rounded-[2rem] rounded-tl-[7rem]">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1100&q=80&auto=format&fit=crop"
+                 alt="Wooden sundeck with loungers facing the sea" class="h-full w-full object-cover" onerror="imgFallback(this)" />
+          </div>
+          <div class="absolute -bottom-10 -right-2 w-[46%] overflow-hidden rounded-2xl border-[6px] border-sand-50 shadow-2xl sm:-right-10">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=700&q=80&auto=format&fit=crop"
+                 alt="Golden sunset over the Arabian Sea" class="aspect-square h-full w-full object-cover" onerror="imgFallback(this)" />
+          </div>
+          <div class="glass-light absolute -left-3 top-10 flex items-center gap-3 rounded-2xl px-4 py-3 shadow-xl sm:-left-10">
+            <span class="grid h-10 w-10 place-items-center rounded-full bg-terra text-white"><i data-lucide="sunset" class="h-5 w-5"></i></span>
+            <span class="text-xs leading-tight"><b class="block text-sm text-palm">West-facing shore</b>Uninterrupted sunsets</span>
+          </div>
+        </div>
+
+        <!-- Story -->
+        <div>
+          <span class="eyebrow reveal">The Hidden Gem of Bhogwe</span>
+          <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] text-palm sm:text-5xl lg:text-6xl">
+            A quiet shore the <em class="text-terra">Konkan</em> kept to itself.
+          </h2>
+          <div class="reveal mt-8 space-y-5 text-[1.02rem] leading-relaxed text-ink/75">
+            <p>
+              Tucked into Kolwel Wadi at Bhogwe, where the Karli River slips into the Arabian Sea beneath the ramparts of Nivati Fort,
+              Samant Beach Resort &amp; Villa sits on a 3 km stretch of virgin sand, sheltered by rustling coconut groves.
+            </p>
+            <p>
+              Mornings begin with fishing boats on the horizon and a home-cooked breakfast; afternoons drift by on the backwaters;
+              evenings belong to salt air, a crackling bonfire and a sky that turns terracotta, then indigo.
+              With only nine handcrafted cottages, the beach stays yours.
+            </p>
+          </div>
+
+          <div class="reveal mt-10 grid grid-cols-3 gap-4 border-t border-palm/10 pt-8">
+            <div><p class="font-display text-4xl text-palm sm:text-5xl"><span data-count="3">0</span><span class="text-terra">km</span></p><p class="mt-1 text-xs uppercase tracking-[.18em] text-ink/55">Virgin beach</p></div>
+            <div><p class="font-display text-4xl text-palm sm:text-5xl"><span data-count="9">0</span></p><p class="mt-1 text-xs uppercase tracking-[.18em] text-ink/55">Wooden cottages</p></div>
+            <div><p class="font-display text-4xl text-palm sm:text-5xl">&infin;</p><p class="mt-1 text-xs uppercase tracking-[.18em] text-ink/55">Sunsets to savour</p></div>
+          </div>
+
+          <ul class="reveal mt-10 grid gap-4 sm:grid-cols-2">
+            <li class="flex gap-3"><i data-lucide="tree-palm" class="mt-0.5 h-5 w-5 flex-none text-terra"></i><span class="text-sm text-ink/75"><b class="text-palm">Coconut grove setting</b><br>Shaded pathways straight to the sand</span></li>
+            <li class="flex gap-3"><i data-lucide="waves" class="mt-0.5 h-5 w-5 flex-none text-terra"></i><span class="text-sm text-ink/75"><b class="text-palm">Tranquil backwaters</b><br>At the Karli River confluence</span></li>
+            <li class="flex gap-3"><i data-lucide="castle" class="mt-0.5 h-5 w-5 flex-none text-terra"></i><span class="text-sm text-ink/75"><b class="text-palm">Beside Nivati Fort</b><br>Cliff-top views over the bay</span></li>
+            <li class="flex gap-3"><i data-lucide="shell" class="mt-0.5 h-5 w-5 flex-none text-terra"></i><span class="text-sm text-ink/75"><b class="text-palm">Private tranquility</b><br>A beach without the crowds</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== AMENITIES STRIP ==================== -->
+    <section aria-label="Amenities" class="relative overflow-hidden border-y border-palm/10 bg-sand py-7">
+      <div class="flex w-max marquee gap-0 md:w-full md:animate-none">
+        <!-- Duplicated list for seamless marquee on small screens; second copy hidden from desktop and screen readers -->
+        <ul class="flex shrink-0 items-center md:w-full md:justify-between md:px-8 lg:mx-auto lg:max-w-7xl">
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="waves" class="h-5 w-5"></i></span>Direct Beach Access</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="wifi" class="h-5 w-5"></i></span>Free WiFi</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="utensils-crossed" class="h-5 w-5"></i></span>In-House Malvani Restaurant</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="flame" class="h-5 w-5"></i></span>Bonfire &amp; Barbecue</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="car" class="h-5 w-5"></i></span>Free Parking</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="paw-print" class="h-5 w-5"></i></span>Pet Friendly</li>
+        </ul>
+        <ul class="flex shrink-0 items-center md:hidden" aria-hidden="true">
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="waves" class="h-5 w-5"></i></span>Direct Beach Access</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="wifi" class="h-5 w-5"></i></span>Free WiFi</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="utensils-crossed" class="h-5 w-5"></i></span>In-House Malvani Restaurant</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="flame" class="h-5 w-5"></i></span>Bonfire &amp; Barbecue</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="car" class="h-5 w-5"></i></span>Free Parking</li>
+          <li class="flex items-center gap-3 px-6 text-sm font-medium text-palm"><span class="grid h-11 w-11 place-items-center rounded-full bg-white text-terra shadow-sm"><i data-lucide="paw-print" class="h-5 w-5"></i></span>Pet Friendly</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ==================== COTTAGES ==================== -->
+    <section id="cottages" class="wood-grain relative py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+          <div class="max-w-2xl">
+            <span class="eyebrow reveal">Accommodation</span>
+            <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] text-palm sm:text-5xl lg:text-6xl">Nine handcrafted cottages. <em class="text-terra">One horizon.</em></h2>
+          </div>
+          <p class="reveal max-w-md text-ink/70">
+            Warm timber, glass-fronted bedrooms and private balconies that open to the Arabian Sea. Every cottage is built for slow mornings and long, golden evenings.
+          </p>
+        </div>
+
+        <!-- Cottage type switcher -->
+        <div class="reveal mt-12 flex flex-wrap gap-2" role="tablist" aria-label="Filter cottages">
+          <button type="button" class="chip active rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-cottage-filter="all">All Stays</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-cottage-filter="couples">For Couples</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-cottage-filter="family">For Families</button>
+        </div>
+
+        <div class="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Card 1 -->
+          <article class="cottage-card reveal group lift flex flex-col overflow-hidden rounded-[1.75rem] bg-white" data-tags="couples">
+            <div class="img-zoom relative aspect-[4/3.2]">
+              <img loading="lazy" class="primary absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=1000&q=80&auto=format&fit=crop" alt="Deluxe Sea View Glass Cottage bedroom with glass wall" onerror="imgFallback(this)" />
+              <img loading="lazy" class="alt-img absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1000&q=80&auto=format&fit=crop" alt="" aria-hidden="true" onerror="this.remove()" />
+              <span class="absolute left-4 top-4 rounded-full bg-terra px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white">Signature</span>
+              <span class="glass absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[.68rem] font-medium text-white"><i data-lucide="users" class="h-3.5 w-3.5"></i> 2 Adults + 1 Child</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <p class="text-[.65rem] font-semibold uppercase tracking-[.25em] text-terra">Front-row to the sea</p>
+              <h3 class="mt-2 font-display text-[1.9rem] leading-tight text-palm">Deluxe Sea View Glass Cottage</h3>
+              <p class="mt-3 text-sm leading-relaxed text-ink/65">A floor-to-ceiling glass facade frames the Arabian Sea from your pillow. Wake to waves, sleep to starlight.</p>
+              <ul class="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-[.8rem] text-ink/75">
+                <li class="flex items-center gap-2"><i data-lucide="bed-double" class="h-4 w-4 text-terra"></i>King Bed</li>
+                <li class="flex items-center gap-2"><i data-lucide="sunset" class="h-4 w-4 text-terra"></i>Glass Wall Sunset Views</li>
+                <li class="flex items-center gap-2"><i data-lucide="door-open" class="h-4 w-4 text-terra"></i>Private Balcony</li>
+                <li class="flex items-center gap-2"><i data-lucide="snowflake" class="h-4 w-4 text-terra"></i>Air Conditioning</li>
+                <li class="flex items-center gap-2"><i data-lucide="wine" class="h-4 w-4 text-terra"></i>Mini Bar</li>
+                <li class="flex items-center gap-2"><i data-lucide="bath" class="h-4 w-4 text-terra"></i>Modern Bath</li>
+                <li class="flex items-center gap-2"><i data-lucide="wifi" class="h-4 w-4 text-terra"></i>Free WiFi</li>
+              </ul>
+              <div class="mt-auto flex items-center gap-3 pt-8">
+                <button type="button" data-book="Deluxe Sea View Glass Cottage" class="btn btn-palm flex-1 rounded-full px-6 py-3.5 text-xs font-semibold uppercase tracking-[.2em]">Check Availability</button>
+                <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20the%20Deluxe%20Sea%20View%20Glass%20Cottage." target="_blank" rel="noopener" class="grid h-12 w-12 flex-none place-items-center rounded-full border border-palm/15 text-palm transition hover:border-[#25D366] hover:bg-[#25D366] hover:text-white" aria-label="Ask about Deluxe Sea View Glass Cottage on WhatsApp">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="cottage-card reveal group lift flex flex-col overflow-hidden rounded-[1.75rem] bg-white" data-tags="couples" style="transition-delay:.08s">
+            <div class="img-zoom relative aspect-[4/3.2]">
+              <img loading="lazy" class="primary absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1000&q=80&auto=format&fit=crop" alt="Executive Wooden Cabin interior with warm timber finishes" onerror="imgFallback(this)" />
+              <img loading="lazy" class="alt-img absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1528150177508-7cc0c36cda5c?w=1000&q=80&auto=format&fit=crop" alt="" aria-hidden="true" onerror="this.remove()" />
+              <span class="glass absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[.68rem] font-medium text-white"><i data-lucide="users" class="h-3.5 w-3.5"></i> 2 Adults</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <p class="text-[.65rem] font-semibold uppercase tracking-[.25em] text-terra">Among the coconut palms</p>
+              <h3 class="mt-2 font-display text-[1.9rem] leading-tight text-palm">Executive Wooden Cabin</h3>
+              <p class="mt-3 text-sm leading-relaxed text-ink/65">Hand-finished timber, a shaded veranda and the hush of palm fronds. A warm, intimate hideaway steps from the shore.</p>
+              <ul class="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-[.8rem] text-ink/75">
+                <li class="flex items-center gap-2"><i data-lucide="bed-double" class="h-4 w-4 text-terra"></i>King Bed</li>
+                <li class="flex items-center gap-2"><i data-lucide="sunset" class="h-4 w-4 text-terra"></i>Glass Wall Sunset Views</li>
+                <li class="flex items-center gap-2"><i data-lucide="door-open" class="h-4 w-4 text-terra"></i>Private Balcony</li>
+                <li class="flex items-center gap-2"><i data-lucide="snowflake" class="h-4 w-4 text-terra"></i>Air Conditioning</li>
+                <li class="flex items-center gap-2"><i data-lucide="wine" class="h-4 w-4 text-terra"></i>Mini Bar</li>
+                <li class="flex items-center gap-2"><i data-lucide="bath" class="h-4 w-4 text-terra"></i>Modern Bath</li>
+                <li class="flex items-center gap-2"><i data-lucide="wifi" class="h-4 w-4 text-terra"></i>Free WiFi</li>
+              </ul>
+              <div class="mt-auto flex items-center gap-3 pt-8">
+                <button type="button" data-book="Executive Wooden Cabin" class="btn btn-palm flex-1 rounded-full px-6 py-3.5 text-xs font-semibold uppercase tracking-[.2em]">Check Availability</button>
+                <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20the%20Executive%20Wooden%20Cabin." target="_blank" rel="noopener" class="grid h-12 w-12 flex-none place-items-center rounded-full border border-palm/15 text-palm transition hover:border-[#25D366] hover:bg-[#25D366] hover:text-white" aria-label="Ask about Executive Wooden Cabin on WhatsApp">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="cottage-card reveal group lift flex flex-col overflow-hidden rounded-[1.75rem] bg-white md:col-span-2 lg:col-span-1" data-tags="family" style="transition-delay:.16s">
+            <div class="img-zoom relative aspect-[4/3.2]">
+              <img loading="lazy" class="primary absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=1000&q=80&auto=format&fit=crop" alt="Garden Villa Suite surrounded by tropical greenery" onerror="imgFallback(this)" />
+              <img loading="lazy" class="alt-img absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1000&q=80&auto=format&fit=crop" alt="" aria-hidden="true" onerror="this.remove()" />
+              <span class="absolute left-4 top-4 rounded-full bg-palm px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white">Family Favourite</span>
+              <span class="glass absolute bottom-4 left-4 flex items-center gap-1.5 rounded-full px-3 py-1.5 text-[.68rem] font-medium text-white"><i data-lucide="users" class="h-3.5 w-3.5"></i> Up to 4 Guests</span>
+            </div>
+            <div class="flex flex-1 flex-col p-7">
+              <p class="text-[.65rem] font-semibold uppercase tracking-[.25em] text-terra">Space to spread out</p>
+              <h3 class="mt-2 font-display text-[1.9rem] leading-tight text-palm">Garden Villa Suite</h3>
+              <p class="mt-3 text-sm leading-relaxed text-ink/65">A generous suite opening onto a private garden sit-out, ideal for families and friends who want room to breathe.</p>
+              <ul class="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 text-[.8rem] text-ink/75">
+                <li class="flex items-center gap-2"><i data-lucide="bed-double" class="h-4 w-4 text-terra"></i>King Bed</li>
+                <li class="flex items-center gap-2"><i data-lucide="sunset" class="h-4 w-4 text-terra"></i>Glass Wall Sunset Views</li>
+                <li class="flex items-center gap-2"><i data-lucide="door-open" class="h-4 w-4 text-terra"></i>Private Balcony</li>
+                <li class="flex items-center gap-2"><i data-lucide="snowflake" class="h-4 w-4 text-terra"></i>Air Conditioning</li>
+                <li class="flex items-center gap-2"><i data-lucide="wine" class="h-4 w-4 text-terra"></i>Mini Bar</li>
+                <li class="flex items-center gap-2"><i data-lucide="bath" class="h-4 w-4 text-terra"></i>Modern Bath</li>
+                <li class="flex items-center gap-2"><i data-lucide="wifi" class="h-4 w-4 text-terra"></i>Free WiFi</li>
+              </ul>
+              <div class="mt-auto flex items-center gap-3 pt-8">
+                <button type="button" data-book="Garden Villa Suite" class="btn btn-palm flex-1 rounded-full px-6 py-3.5 text-xs font-semibold uppercase tracking-[.2em]">Check Availability</button>
+                <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20the%20Garden%20Villa%20Suite." target="_blank" rel="noopener" class="grid h-12 w-12 flex-none place-items-center rounded-full border border-palm/15 text-palm transition hover:border-[#25D366] hover:bg-[#25D366] hover:text-white" aria-label="Ask about Garden Villa Suite on WhatsApp">
+                  <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="reveal mt-12 text-center text-sm text-ink/60">
+          Tariffs vary by season &amp; occupancy. <a href="tel:+919320078755" class="font-semibold text-terra underline-offset-4 hover:underline">Call +91 93200 78755</a> for today's best rate.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== CUISINE ==================== -->
+    <section id="cuisine" class="grain relative overflow-hidden bg-palm-900 py-24 text-sand sm:py-32">
+      <div class="pointer-events-none absolute -right-40 -top-40 h-[520px] w-[520px] rounded-full bg-terra/20 blur-3xl"></div>
+      <div class="relative mx-auto grid max-w-7xl gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-12">
+        <div class="lg:col-span-5">
+          <span class="eyebrow reveal !text-terra-200">Konkani &amp; Malvani Kitchen</span>
+          <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">Today's catch, <em class="text-terra-200">grandmother's recipes.</em></h2>
+          <p class="reveal mt-6 max-w-md leading-relaxed text-sand/75">
+            Fish is bought off the boats each morning and cooked the Malvani way: fresh-ground coconut, kokum, and a masala that
+            took generations to perfect. Meals are served under the palms with the sea at your feet.
+          </p>
+
+          <ol class="mt-10 divide-y divide-sand/10 border-y border-sand/10">
+            <li class="reveal group flex items-baseline gap-5 py-5">
+              <span class="font-display text-sm text-terra-200">01</span>
+              <div class="flex-1"><h3 class="font-display text-2xl transition group-hover:translate-x-1 group-hover:text-terra-200">Fresh Catch of the Day</h3><p class="mt-1 text-sm text-sand/60">Pomfret, bangda &amp; kingfish, tawa-fried or grilled on the beach.</p></div>
+            </li>
+            <li class="reveal group flex items-baseline gap-5 py-5">
+              <span class="font-display text-sm text-terra-200">02</span>
+              <div class="flex-1"><h3 class="font-display text-2xl transition group-hover:translate-x-1 group-hover:text-terra-200">Malvani Fish Curry &amp; Solkadhi</h3><p class="mt-1 text-sm text-sand/60">Fiery coconut curry cooled by a pink kokum-coconut digestive.</p></div>
+            </li>
+            <li class="reveal group flex items-baseline gap-5 py-5">
+              <span class="font-display text-sm text-terra-200">03</span>
+              <div class="flex-1"><h3 class="font-display text-2xl transition group-hover:translate-x-1 group-hover:text-terra-200">Rava-Fried Surmai &amp; Prawns</h3><p class="mt-1 text-sm text-sand/60">Semolina-crusted, crisp outside and succulent within.</p></div>
+            </li>
+            <li class="reveal group flex items-baseline gap-5 py-5">
+              <span class="font-display text-sm text-terra-200">04</span>
+              <div class="flex-1"><h3 class="font-display text-2xl transition group-hover:translate-x-1 group-hover:text-terra-200">Homemade Konkani Breakfast</h3><p class="mt-1 text-sm text-sand/60">Poha, ghavne, amboli &amp; chai, served warm on the veranda.</p></div>
+            </li>
+          </ol>
+          <div class="reveal mt-10 flex flex-wrap gap-3">
+            <span class="rounded-full border border-sand/20 px-4 py-2 text-xs text-sand/80"><i data-lucide="fish" class="mr-1.5 inline h-3.5 w-3.5"></i>Seafood</span>
+            <span class="rounded-full border border-sand/20 px-4 py-2 text-xs text-sand/80"><i data-lucide="leaf" class="mr-1.5 inline h-3.5 w-3.5"></i>Veg thalis on request</span>
+            <span class="rounded-full border border-sand/20 px-4 py-2 text-xs text-sand/80"><i data-lucide="flame" class="mr-1.5 inline h-3.5 w-3.5"></i>Beach barbecue</span>
+          </div>
+        </div>
+
+        <!-- Food mosaic -->
+        <div class="grid min-h-[760px] grid-cols-6 grid-rows-[repeat(6,minmax(0,1fr))] gap-3 sm:min-h-[560px] sm:gap-4 lg:col-span-7">
+          <figure class="reveal zoom group img-zoom relative col-span-6 row-span-2 rounded-[1.75rem] sm:col-span-4 sm:row-span-4">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=1200&q=80&auto=format&fit=crop" alt="Traditional thali with curries and bhakri" class="primary absolute inset-0 h-full w-full object-cover" onerror="imgFallback(this)" />
+            <figcaption class="glass absolute bottom-4 left-4 rounded-full px-4 py-2 text-xs text-white">The Malvani Thali</figcaption>
+          </figure>
+          <figure class="reveal zoom group img-zoom relative col-span-3 row-span-2 rounded-[1.5rem] sm:col-span-2 sm:row-span-2" style="transition-delay:.1s">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=700&q=80&auto=format&fit=crop" alt="Fresh fish and seafood on ice" class="primary absolute inset-0 h-full w-full object-cover" onerror="imgFallback(this)" />
+          </figure>
+          <figure class="reveal zoom group img-zoom relative col-span-3 row-span-2 rounded-[1.5rem] sm:col-span-2 sm:row-span-2" style="transition-delay:.2s">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=700&q=80&auto=format&fit=crop" alt="Konkan prawns" class="primary absolute inset-0 h-full w-full object-cover" onerror="imgFallback(this)" />
+          </figure>
+          <figure class="reveal zoom group img-zoom relative col-span-6 row-span-2 rounded-[1.5rem]" style="transition-delay:.25s">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1400&q=80&auto=format&fit=crop" alt="Beachfront outdoor dining at sunset" class="primary absolute inset-0 h-full w-full object-cover" onerror="imgFallback(this)" />
+            <figcaption class="absolute inset-0 flex items-center bg-gradient-to-r from-palm-950/75 to-transparent px-6">
+              <span class="text-sm text-white"><b class="block font-display text-2xl font-medium">Beachfront outdoor seating</b>Dinner by lantern light, feet in the sand</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCES ==================== -->
+    <section id="experiences" class="relative py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <span class="eyebrow reveal justify-center">Experiences &amp; Nearby</span>
+          <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] text-palm sm:text-5xl lg:text-6xl">Days that write <em class="text-terra">their own stories.</em></h2>
+          <p class="reveal mt-5 text-ink/65">From dolphins at dawn to forts at dusk, the Sindhudurg coast is on your doorstep. Our team will happily arrange boats, guides and transfers.</p>
+        </div>
+
+        <div class="reveal mt-12 flex flex-wrap justify-center gap-2" role="group" aria-label="Filter experiences">
+          <button type="button" class="chip active rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-exp-filter="all">All</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-exp-filter="sea">Sea</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-exp-filter="adventure">Adventure</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-exp-filter="heritage">Heritage</button>
+          <button type="button" class="chip rounded-full border border-palm/20 px-5 py-2.5 text-xs font-semibold uppercase tracking-[.16em] text-palm" data-exp-filter="nature">Nature</button>
+        </div>
+
+        <div id="expGrid" class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Each card: data-cat holds space-separated categories -->
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="sea" tabindex="0">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1607153333879-c174d265f1d2?w=800&q=80&auto=format&fit=crop" alt="Dolphins swimming in the Arabian Sea" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Sea · Early morning</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="sailboat" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Dolphin Spotting Safari</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Set out at sunrise from the Karli confluence to meet playful Indo-Pacific humpback dolphins in calm morning waters.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="sea adventure" tabindex="0" style="transition-delay:.06s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80&auto=format&fit=crop" alt="Scuba diver among fish on a coral reef" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Sea · Malvan</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="anchor" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Scuba &amp; Snorkeling</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Discover the reefs around Malvan and Sindhudurg Fort with certified instructors. No experience needed.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="heritage adventure" tabindex="0" style="transition-delay:.12s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=800&q=80&auto=format&fit=crop" alt="Cliffs and hidden coves along the Konkan coast" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Heritage · Walkable</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="castle" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Nivati Fort Trek</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Climb to the Maratha-era ramparts for sweeping views over Bhogwe, the river mouth and the open sea.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="adventure sea" tabindex="0" style="transition-delay:.18s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=800&q=80&auto=format&fit=crop" alt="Water sports on ocean waves" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Adventure · Tarkarli</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="waves" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Water Sports</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Parasailing, jet-ski, banana rides and kayaking at Tarkarli &amp; Devbag, a short hop across the river.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="nature" tabindex="0">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80&auto=format&fit=crop" alt="Calm backwaters with a wooden jetty and green shoreline" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Nature · Golden hour</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="ship" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Karli Backwater Cruise</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Glide past mangroves, fishing hamlets and sandbars where the Karli River meets the Arabian Sea.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="nature adventure" tabindex="0" style="transition-delay:.06s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1586375300773-8384e3e4916f?w=800&q=80&auto=format&fit=crop" alt="Wooden walkway through lush jungle" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Nature · Guided</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="footprints" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Jungle &amp; Grove Treks</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Walk hidden trails through cashew orchards, coconut groves and Konkan village life with a local guide.</p></div>
+            </div>
+          </article>
+
+          <!-- Photo: "Sindhudurg Fort.jpg", Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Sindhudurg_Fort.jpg) — check licence & credit the author -->
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="heritage sea" tabindex="0" style="transition-delay:.12s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover object-[50%_85%]" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Sindhudurg_Fort.jpg" alt="Sindhudurg Fort seen across the water from Malvan jetty" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">Heritage · Malvan</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="landmark" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Sindhudurg Sea Fort</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">Take a ferry to Shivaji Maharaj's island fortress, built in 1664 and still standing guard over Malvan.</p></div>
+            </div>
+          </article>
+
+          <article class="exp-card reveal group relative aspect-[4/3.8] overflow-hidden sm:aspect-[3/4] rounded-[1.5rem]" data-cat="nature" tabindex="0" style="transition-delay:.18s">
+            <div class="img-zoom absolute inset-0"><img loading="lazy" class="primary h-full w-full object-cover" src="https://images.unsplash.com/photo-1475483768296-6163e08872a1?w=800&q=80&auto=format&fit=crop" alt="Bonfire glowing on the beach at night" onerror="imgFallback(this)" /></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-palm-950/90 via-palm-950/20 to-transparent"></div>
+            <span class="glass absolute left-4 top-4 rounded-full bg-palm-950/40 px-3 py-1 text-[.62rem] font-semibold uppercase tracking-[.2em] text-white">On property · Evenings</span>
+            <div class="exp-body absolute inset-x-0 bottom-0 p-6 text-white">
+              <i data-lucide="flame" class="mb-3 h-6 w-6 text-terra-200"></i>
+              <h3 class="font-display text-[1.75rem] leading-tight">Bonfire &amp; Stargazing</h3>
+              <div class="exp-more overflow-hidden"><p class="pt-2 text-sm text-white/75">End the day with a crackling beach bonfire, grilled seafood and a sky full of stars.</p></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALLERY ==================== -->
+    <section id="gallery" class="bg-sand-100 py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+          <div>
+            <span class="eyebrow reveal">Gallery</span>
+            <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] text-palm sm:text-5xl lg:text-6xl">Moments from <em class="text-terra">Bhogwe.</em></h2>
+          </div>
+          <div class="reveal flex flex-wrap gap-2" role="group" aria-label="Filter gallery">
+            <button type="button" class="chip active rounded-full border border-palm/20 px-4 py-2 text-[.7rem] font-semibold uppercase tracking-[.16em] text-palm" data-gal-filter="all">All</button>
+            <button type="button" class="chip rounded-full border border-palm/20 px-4 py-2 text-[.7rem] font-semibold uppercase tracking-[.16em] text-palm" data-gal-filter="cottages">Cottages</button>
+            <button type="button" class="chip rounded-full border border-palm/20 px-4 py-2 text-[.7rem] font-semibold uppercase tracking-[.16em] text-palm" data-gal-filter="beach">Beach</button>
+            <button type="button" class="chip rounded-full border border-palm/20 px-4 py-2 text-[.7rem] font-semibold uppercase tracking-[.16em] text-palm" data-gal-filter="sunsets">Sunsets</button>
+            <button type="button" class="chip rounded-full border border-palm/20 px-4 py-2 text-[.7rem] font-semibold uppercase tracking-[.16em] text-palm" data-gal-filter="dining">Dining</button>
+          </div>
+        </div>
+
+        <!-- Rendered by JS from GALLERY array below; noscript fallback keeps a few images visible -->
+        <div id="masonry" class="masonry mt-12"></div>
+        <noscript>
+          <div class="mt-12 grid gap-4 sm:grid-cols-3">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=75" alt="Sunset on the beach" class="rounded-2xl" />
+            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=75" alt="Cottage interior" class="rounded-2xl" />
+            <img src="https://images.unsplash.com/photo-1475483768296-6163e08872a1?w=800&q=75" alt="Beach bonfire" class="rounded-2xl" />
+          </div>
+        </noscript>
+
+        <!-- Instagram strip -->
+        <div class="reveal mt-20 flex flex-col items-center justify-between gap-4 border-t border-palm/10 pt-10 sm:flex-row">
+          <div class="flex items-center gap-3">
+            <span class="grid h-11 w-11 place-items-center rounded-full bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg>
+            </span>
+            <div><p class="font-display text-2xl text-palm">#SamantBeachResort</p><p class="text-xs text-ink/55">Tag your Bhogwe moments to be featured</p></div>
+          </div>
+          <a href="https://www.instagram.com/explore/tags/samantbeachresort/" target="_blank" rel="noopener" class="btn btn-outline inline-flex items-center gap-2 rounded-full px-6 py-3 text-xs font-semibold uppercase tracking-[.18em]">View on Instagram <i data-lucide="arrow-up-right" class="h-4 w-4"></i></a>
+        </div>
+        <div class="mt-8 grid grid-cols-3 gap-2 sm:grid-cols-6 sm:gap-3" id="instaStrip"></div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <!-- NOTE: Replace these sample reviews with genuine guest reviews (e.g. from Google / TripAdvisor) before going live. -->
+    <section id="reviews" class="relative overflow-hidden py-24 sm:py-32">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=2000&q=75&auto=format&fit=crop" alt="" aria-hidden="true" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()" />
+      <div class="absolute inset-0 bg-palm-950/80"></div>
+
+      <div class="relative mx-auto max-w-7xl px-5 sm:px-8">
+        <div class="flex flex-col justify-between gap-8 text-sand md:flex-row md:items-end">
+          <div class="max-w-2xl">
+            <span class="eyebrow reveal !text-terra-200">Guest Stories</span>
+            <h2 class="reveal mt-5 font-display text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">Guests who come back, <em class="text-terra-200">year after year.</em></h2>
+          </div>
+          <div class="reveal flex gap-3">
+            <button type="button" id="tPrev" class="grid h-12 w-12 place-items-center rounded-full border border-sand/30 text-sand transition hover:bg-sand hover:text-palm" aria-label="Previous review"><i data-lucide="arrow-left" class="h-5 w-5"></i></button>
+            <button type="button" id="tNext" class="grid h-12 w-12 place-items-center rounded-full border border-sand/30 text-sand transition hover:bg-sand hover:text-palm" aria-label="Next review"><i data-lucide="arrow-right" class="h-5 w-5"></i></button>
+          </div>
+        </div>
+
+        <div id="tTrack" class="t-track reveal mt-12 flex gap-5 overflow-x-auto pb-4">
+          <!-- Review cards -->
+          <figure class="glass flex w-[86%] flex-none flex-col rounded-[1.75rem] p-8 text-sand sm:w-[420px]">
+            <div class="flex gap-1 text-terra-200" aria-label="5 out of 5 stars"><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i></div>
+            <blockquote class="mt-6 flex-1 font-display text-2xl leading-snug">"Our third visit and it still feels like a secret. The beach is spotless and practically private, and the hosts treat you like family."</blockquote>
+            <figcaption class="mt-8 flex items-center gap-3 border-t border-sand/15 pt-5"><span class="grid h-11 w-11 place-items-center rounded-full bg-terra font-display text-lg text-white">A</span><span class="text-sm"><b class="block">Aditi &amp; Rohan</b><span class="text-sand/60">Pune · Repeat guests</span></span></figcaption>
+          </figure>
+          <figure class="glass flex w-[86%] flex-none flex-col rounded-[1.75rem] p-8 text-sand sm:w-[420px]">
+            <div class="flex gap-1 text-terra-200" aria-label="5 out of 5 stars"><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i></div>
+            <blockquote class="mt-6 flex-1 font-display text-2xl leading-snug">"The best Malvani fish thali we have ever eaten, and the solkadhi was perfect. We still talk about the fried surmai."</blockquote>
+            <figcaption class="mt-8 flex items-center gap-3 border-t border-sand/15 pt-5"><span class="grid h-11 w-11 place-items-center rounded-full bg-palm-600 font-display text-lg text-white">S</span><span class="text-sm"><b class="block">Sameer K.</b><span class="text-sand/60">Mumbai · Family trip</span></span></figcaption>
+          </figure>
+          <figure class="glass flex w-[86%] flex-none flex-col rounded-[1.75rem] p-8 text-sand sm:w-[420px]">
+            <div class="flex gap-1 text-terra-200" aria-label="5 out of 5 stars"><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i></div>
+            <blockquote class="mt-6 flex-1 font-display text-2xl leading-snug">"Waking up to the sea through the glass wall of our cottage was magical. Quiet, clean and wonderfully peaceful."</blockquote>
+            <figcaption class="mt-8 flex items-center gap-3 border-t border-sand/15 pt-5"><span class="grid h-11 w-11 place-items-center rounded-full bg-wood font-display text-lg text-white">M</span><span class="text-sm"><b class="block">Meera &amp; Nikhil</b><span class="text-sand/60">Bengaluru · Honeymoon</span></span></figcaption>
+          </figure>
+          <figure class="glass flex w-[86%] flex-none flex-col rounded-[1.75rem] p-8 text-sand sm:w-[420px]">
+            <div class="flex gap-1 text-terra-200" aria-label="5 out of 5 stars"><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i></div>
+            <blockquote class="mt-6 flex-1 font-display text-2xl leading-snug">"They arranged our dolphin safari and a Nivati Fort walk. Warm hospitality, and our dog was welcomed too!"</blockquote>
+            <figcaption class="mt-8 flex items-center gap-3 border-t border-sand/15 pt-5"><span class="grid h-11 w-11 place-items-center rounded-full bg-terra-600 font-display text-lg text-white">P</span><span class="text-sm"><b class="block">Priya D.</b><span class="text-sand/60">Goa · Weekend getaway</span></span></figcaption>
+          </figure>
+          <figure class="glass flex w-[86%] flex-none flex-col rounded-[1.75rem] p-8 text-sand sm:w-[420px]">
+            <div class="flex gap-1 text-terra-200" aria-label="5 out of 5 stars"><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i></div>
+            <blockquote class="mt-6 flex-1 font-display text-2xl leading-snug">"Bonfire nights, homemade breakfasts and total privacy. We have booked again for Diwali."</blockquote>
+            <figcaption class="mt-8 flex items-center gap-3 border-t border-sand/15 pt-5"><span class="grid h-11 w-11 place-items-center rounded-full bg-palm-600 font-display text-lg text-white">V</span><span class="text-sm"><b class="block">Vikram &amp; friends</b><span class="text-sand/60">Kolhapur · 4th visit</span></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA BANNER ==================== -->
+    <section class="relative px-5 py-20 sm:px-8 sm:py-24">
+      <div class="reveal zoom relative mx-auto max-w-7xl overflow-hidden rounded-[2rem] bg-terra px-8 py-16 text-center text-white sm:px-16 sm:py-20">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1800&q=75&auto=format&fit=crop" alt="" aria-hidden="true" class="absolute inset-0 h-full w-full object-cover opacity-30 mix-blend-multiply" onerror="this.remove()" />
+        <div class="relative">
+          <p class="text-[.7rem] font-semibold uppercase tracking-[.32em] text-white/80">Only nine cottages · Limited dates</p>
+          <h2 class="mx-auto mt-5 max-w-3xl font-display text-4xl leading-tight sm:text-6xl">Your cottage by the Arabian Sea is waiting.</h2>
+          <div class="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
+            <button type="button" data-book class="btn inline-flex items-center justify-center gap-3 rounded-full bg-white px-8 py-4 text-xs font-semibold uppercase tracking-[.22em] text-palm hover:text-white" style="--tw-bg-opacity:1">
+              <span class="relative">Check Availability</span> <i data-lucide="calendar" class="relative h-4 w-4"></i>
+            </button>
+            <a href="tel:+919320078755" class="btn btn-ghost inline-flex items-center justify-center gap-3 rounded-full px-8 py-4 text-xs font-semibold uppercase tracking-[.22em]">
+              <i data-lucide="phone" class="h-4 w-4"></i> +91 93200 78755
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="contact" class="bg-palm-950 text-sand/80">
+    <div class="mx-auto grid max-w-7xl gap-14 px-5 py-20 sm:px-8 lg:grid-cols-12">
+      <div class="lg:col-span-4">
+        <a href="#home" class="flex items-center gap-3 text-sand">
+          <span class="grid h-11 w-11 place-items-center rounded-full border border-sand/30"><i data-lucide="tree-palm" class="h-5 w-5"></i></span>
+          <span class="leading-none"><span class="block font-display text-3xl">Samant</span><span class="block text-[.6rem] font-semibold uppercase tracking-[.3em] text-sand/60">Beach Resort &amp; Villa</span></span>
+        </a>
+        <p class="mt-6 max-w-sm text-sm leading-relaxed text-sand/60">Handcrafted wooden cottages on a 3 km virgin beach at Bhogwe, where coconut groves, the Karli River and the Arabian Sea meet.</p>
+        <div class="mt-8 flex gap-3">
+          <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20cottage." target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-sand/20 transition hover:border-[#25D366] hover:bg-[#25D366] hover:text-white" aria-label="WhatsApp">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg>
+          </a>
+          <a href="tel:+919320078755" class="grid h-11 w-11 place-items-center rounded-full border border-sand/20 transition hover:border-terra hover:bg-terra hover:text-white" aria-label="Call"><i data-lucide="phone" class="h-4 w-4"></i></a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Samant+Beach+Resort+Bhogwe+Sindhudurg" target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-sand/20 transition hover:border-terra hover:bg-terra hover:text-white" aria-label="Open in Google Maps"><i data-lucide="map-pin" class="h-4 w-4"></i></a>
+        </div>
+      </div>
+
+      <div class="grid gap-10 sm:grid-cols-2 lg:col-span-4">
+        <div>
+          <h3 class="text-[.7rem] font-semibold uppercase tracking-[.28em] text-terra-200">Visit</h3>
+          <address class="mt-5 text-sm not-italic leading-relaxed">
+            Samant Beach Resort &amp; Villa<br />
+            Kolwel Wadi, Bhogwe<br />
+            Near Nivati Fort &amp; Karli River Confluence<br />
+            Vengurla / Malvan Coast, Sindhudurg<br />
+            Maharashtra, India
+          </address>
+        </div>
+        <div>
+          <h3 class="text-[.7rem] font-semibold uppercase tracking-[.28em] text-terra-200">Reservations</h3>
+          <ul class="mt-5 space-y-3 text-sm">
+            <li><a href="tel:+919320078755" class="flex items-center gap-2 transition hover:text-white"><i data-lucide="phone" class="h-4 w-4 text-terra-200"></i>+91 93200 78755</a></li>
+            <li><a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20cottage." target="_blank" rel="noopener" class="flex items-center gap-2 transition hover:text-white"><i data-lucide="message-circle" class="h-4 w-4 text-terra-200"></i>WhatsApp us</a></li>
+            <li class="flex items-center gap-2"><i data-lucide="clock" class="h-4 w-4 text-terra-200"></i>Check-in 12 PM · Check-out 11 AM</li>
+          </ul>
+          <h3 class="mt-8 text-[.7rem] font-semibold uppercase tracking-[.28em] text-terra-200">Explore</h3>
+          <ul class="mt-4 grid grid-cols-2 gap-2 text-sm">
+            <li><a href="#cottages" class="hover:text-white">Cottages</a></li>
+            <li><a href="#cuisine" class="hover:text-white">Cuisine</a></li>
+            <li><a href="#experiences" class="hover:text-white">Experiences</a></li>
+            <li><a href="#gallery" class="hover:text-white">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="lg:col-span-4">
+        <div class="relative overflow-hidden rounded-2xl border border-sand/10">
+          <iframe title="Map: Bhogwe Beach, Sindhudurg" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://maps.google.com/maps?q=Bhogwe%20Beach%2C%20Sindhudurg%2C%20Maharashtra&z=13&output=embed"
+                  class="h-64 w-full grayscale-[40%] contrast-[1.05]" style="border:0"></iframe>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&query=Samant+Beach+Resort+Bhogwe+Sindhudurg" target="_blank" rel="noopener"
+           class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-terra-200 hover:text-white">
+          Get directions on Google Maps <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+        </a>
+      </div>
+    </div>
+    <div class="border-t border-sand/10">
+      <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-5 py-6 text-xs text-sand/45 sm:flex-row sm:px-8">
+        <p>© <span id="year"></span> Samant Beach Resort &amp; Villa, Bhogwe, Sindhudurg. All rights reserved.</p>
+        <p>Crafted with care on the Konkan coast.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shared WhatsApp glyph -->
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="wa-icon" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.93.95-3.48-.22-.36A9.43 9.43 0 1 1 21.5 12.05c0 5.2-4.23 9.45-9.45 9.45zm8.04-17.49A11.3 11.3 0 0 0 12.05.67C5.78.67.67 5.78.67 12.05c0 2 .52 3.96 1.52 5.68L.57 23.33l5.73-1.5a11.36 11.36 0 0 0 5.74 1.47h.01c6.27 0 11.38-5.1 11.38-11.38 0-3.04-1.18-5.9-3.34-8.05z"/></symbol>
+  </svg>
+
+  <!-- ==================== FLOATING / STICKY UI ==================== -->
+  <!-- Desktop floating WhatsApp -->
+  <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20cottage."
+     target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+     class="group fixed bottom-8 right-8 z-40 hidden items-center gap-3 rounded-full bg-[#25D366] py-3.5 pl-4 pr-4 text-white shadow-[0_18px_40px_-12px_rgba(37,211,102,.7)] transition-all duration-500 hover:pr-6 md:flex">
+    <span class="absolute inset-0 -z-10 animate-ping rounded-full bg-[#25D366] opacity-20"></span>
+    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg>
+    <span class="max-w-0 overflow-hidden whitespace-nowrap text-sm font-semibold transition-all duration-500 group-hover:max-w-[160px]">Book via WhatsApp</span>
+  </a>
+
+  <button id="toTop" type="button" aria-label="Back to top" class="fixed bottom-28 right-9 z-40 hidden h-11 w-11 place-items-center rounded-full bg-white text-palm shadow-lg md:grid">
+    <i data-lucide="arrow-up" class="h-5 w-5"></i>
+  </button>
+
+  <!-- Mobile sticky bottom bar -->
+  <nav class="glass-light pb-safe fixed inset-x-0 bottom-0 z-40 flex gap-2 border-t border-palm/10 px-3 pt-3 md:hidden" aria-label="Quick booking">
+    <a href="tel:+919320078755" class="flex flex-1 items-center justify-center gap-2 rounded-full border border-palm/20 bg-white py-3.5 text-sm font-semibold text-palm active:scale-[.98]">
+      <i data-lucide="phone" class="h-4 w-4"></i> Call Now
+    </a>
+    <a href="https://wa.me/919320078755?text=Hello%20Samant%20Beach%20Resort,%20I%20would%20like%20to%20inquire%20about%20booking%20a%20cottage."
+       target="_blank" rel="noopener" class="flex flex-[1.3] items-center justify-center gap-2 rounded-full bg-[#25D366] py-3.5 text-sm font-semibold text-white active:scale-[.98]">
+      <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg> Book via WhatsApp
+    </a>
+  </nav>
+
+  <!-- ==================== BOOKING MODAL ==================== -->
+  <div id="bookingModal" class="modal fixed inset-0 z-[70] flex items-end justify-center p-0 sm:items-center sm:p-6" role="dialog" aria-modal="true" aria-labelledby="bookingTitle" aria-hidden="true">
+    <div class="absolute inset-0 bg-palm-950/60 backdrop-blur-md" data-close></div>
+    <div class="modal-panel relative max-h-[94svh] w-full max-w-4xl overflow-y-auto rounded-t-[2rem] bg-sand-50 shadow-2xl sm:rounded-[2rem]">
+      <div class="grid md:grid-cols-5">
+        <!-- Side visual -->
+        <div class="relative hidden min-h-full overflow-hidden md:col-span-2 md:block">
+          <img src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=900&q=75&auto=format&fit=crop" alt="Sunset over Bhogwe beach" class="absolute inset-0 h-full w-full object-cover" onerror="imgFallback(this)" />
+          <div class="absolute inset-0 bg-gradient-to-t from-palm-950/85 to-palm-950/10"></div>
+          <div class="absolute inset-x-0 bottom-0 p-8 text-white">
+            <p class="text-[.65rem] font-semibold uppercase tracking-[.28em] text-terra-200">Direct booking perks</p>
+            <ul class="mt-4 space-y-2.5 text-sm text-white/85">
+              <li class="flex gap-2"><i data-lucide="check" class="h-4 w-4 flex-none text-terra-200"></i>Best rate, no middleman</li>
+              <li class="flex gap-2"><i data-lucide="check" class="h-4 w-4 flex-none text-terra-200"></i>Instant reply on WhatsApp</li>
+              <li class="flex gap-2"><i data-lucide="check" class="h-4 w-4 flex-none text-terra-200"></i>Help planning safaris &amp; treks</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="p-6 sm:p-10 md:col-span-3">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <p class="eyebrow">Reserve</p>
+              <h2 id="bookingTitle" class="mt-3 font-display text-4xl leading-tight text-palm">Check availability</h2>
+              <p class="mt-2 text-sm text-ink/60">Share your dates and we'll confirm on WhatsApp within minutes.</p>
+            </div>
+            <button type="button" data-close class="grid h-11 w-11 flex-none place-items-center rounded-full border border-palm/15 text-palm transition hover:rotate-90 hover:bg-palm hover:text-white" aria-label="Close booking form">
+              <i data-lucide="x" class="h-5 w-5"></i>
+            </button>
+          </div>
+
+          <form id="bookingForm" class="mt-8 grid grid-cols-2 gap-4" novalidate>
+            <label class="col-span-2 block">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Cottage</span>
+              <select id="fCottage" name="cottage" class="field mt-2 w-full rounded-xl border border-palm/15 bg-white/70 px-4 py-3.5 text-sm">
+                <option>Deluxe Sea View Glass Cottage</option>
+                <option>Executive Wooden Cabin</option>
+                <option>Garden Villa Suite</option>
+                <option>Not sure yet: please suggest</option>
+              </select>
+            </label>
+            <label class="col-span-2 block sm:col-span-1">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Check-in</span>
+              <input id="fIn" name="checkin" type="date" required class="field mt-2 w-full rounded-xl border border-palm/15 bg-white/70 px-4 py-3.5 text-sm" />
+            </label>
+            <label class="col-span-2 block sm:col-span-1">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Check-out</span>
+              <input id="fOut" name="checkout" type="date" required class="field mt-2 w-full rounded-xl border border-palm/15 bg-white/70 px-4 py-3.5 text-sm" />
+            </label>
+            <div class="col-span-2 block sm:col-span-1">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Guests</span>
+              <div class="mt-2 flex items-center justify-between rounded-xl border border-palm/15 bg-white/70 px-2 py-1.5">
+                <button type="button" class="grid h-9 w-9 place-items-center rounded-lg text-palm hover:bg-sand" data-guests="-1" aria-label="Fewer guests"><i data-lucide="minus" class="h-4 w-4"></i></button>
+                <output id="fGuests" class="text-sm font-semibold text-palm" aria-live="polite">2 Guests</output>
+                <button type="button" class="grid h-9 w-9 place-items-center rounded-lg text-palm hover:bg-sand" data-guests="1" aria-label="More guests"><i data-lucide="plus" class="h-4 w-4"></i></button>
+              </div>
+            </div>
+            <label class="col-span-2 block sm:col-span-1">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Your name</span>
+              <input id="fName" name="name" type="text" autocomplete="name" required placeholder="Full name" class="field mt-2 w-full rounded-xl border border-palm/15 bg-white/70 px-4 py-3.5 text-sm placeholder:text-ink/35" />
+            </label>
+            <label class="col-span-2 block">
+              <span class="text-[.68rem] font-semibold uppercase tracking-[.2em] text-ink/60">Special requests <span class="normal-case tracking-normal text-ink/40">(optional)</span></span>
+              <textarea id="fNote" name="note" rows="2" placeholder="Celebration, dietary needs, travelling with a pet…" class="field mt-2 w-full resize-none rounded-xl border border-palm/15 bg-white/70 px-4 py-3 text-sm placeholder:text-ink/35"></textarea>
+            </label>
+
+            <p id="fError" class="col-span-2 hidden rounded-xl bg-terra-100 px-4 py-3 text-sm text-terra-700" role="alert"></p>
+            <p id="fNights" class="col-span-2 -mt-1 text-sm text-ink/60"></p>
+
+            <div class="col-span-2 mt-2 flex flex-col gap-3 sm:flex-row">
+              <button type="submit" class="btn inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] px-6 py-4 text-xs font-semibold uppercase tracking-[.2em] text-white hover:bg-[#1eb457]">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa-icon"/></svg> Send on WhatsApp
+              </button>
+              <a href="tel:+919320078755" class="btn btn-outline inline-flex items-center justify-center gap-2 rounded-full px-6 py-4 text-xs font-semibold uppercase tracking-[.2em]">
+                <i data-lucide="phone" class="h-4 w-4"></i> Call instead
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== LIGHTBOX ==================== -->
+  <div id="lightbox" class="modal fixed inset-0 z-[80] flex items-center justify-center bg-palm-950/95 p-4 backdrop-blur" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
+    <button type="button" data-lb="close" class="absolute right-4 top-4 grid h-12 w-12 place-items-center rounded-full border border-white/20 text-white hover:bg-white hover:text-palm" aria-label="Close"><i data-lucide="x" class="h-5 w-5"></i></button>
+    <button type="button" data-lb="prev" class="absolute left-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-white/20 text-white hover:bg-white hover:text-palm sm:left-6" aria-label="Previous image"><i data-lucide="chevron-left" class="h-6 w-6"></i></button>
+    <button type="button" data-lb="next" class="absolute right-3 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full border border-white/20 text-white hover:bg-white hover:text-palm sm:right-6" aria-label="Next image"><i data-lucide="chevron-right" class="h-6 w-6"></i></button>
+    <figure class="modal-panel max-w-6xl text-center">
+      <img id="lbImg" src="" alt="" class="mx-auto max-h-[80vh] w-auto rounded-xl bg-transparent object-contain" onerror="imgFallback(this)" />
+      <figcaption id="lbCap" class="mt-4 font-display text-xl text-sand"></figcaption>
+    </figure>
+  </div>
+
+  <!-- ==================== SCRIPT ==================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      var WA_NUMBER = '919320078755';
+      var U = function (id, w) { return 'https://images.unsplash.com/photo-' + id + '?w=' + (w || 900) + '&q=80&auto=format&fit=crop'; };
+
+      /* ---------- Gallery data ---------- */
+      var GALLERY = [
+        { id: '1602002418082-a4443e081dd1', cat: 'cottages', cap: 'Glass-front cottage bedroom', ratio: '4/5' },
+        { id: '1507525428034-b723cf961d3e', cat: 'sunsets',  cap: 'Golden hour on Bhogwe Beach', ratio: '4/3' },
+        { id: '1528150177508-7cc0c36cda5c', cat: 'beach',    cap: 'Palm pathways to the shore', ratio: '3/4' },
+        { id: '1475483768296-6163e08872a1', cat: 'sunsets',  cap: 'Bonfire nights', ratio: '1/1' },
+        { id: '1611892440504-42a792e24d32', cat: 'cottages', cap: 'Warm timber interiors', ratio: '4/3' },
+        { id: '1567337710282-00832b415979', cat: 'dining',   cap: 'Malvani thali', ratio: '1/1' },
+        { id: '1519046904884-53103b34b206', cat: 'beach',    cap: 'Coconut palms & white sand', ratio: '4/5' },
+        { id: '1473116763249-2faaef81ccda', cat: 'sunsets',  cap: 'Sunset over the Arabian Sea', ratio: '3/4' },
+        { id: '1582719508461-905c673771fd', cat: 'cottages', cap: 'Sea-facing sundeck', ratio: '4/3' },
+        { id: '1559339352-11d035aa65de',    cat: 'dining',   cap: 'Dinner by the waves', ratio: '4/3' },
+        { id: '1506953823976-52e1fdc0149a', cat: 'beach',    cap: 'Swaying palms', ratio: '1/1' },
+        { id: '1509233725247-49e657c54213', cat: 'beach',    cap: 'Where the coconut grove meets the sea', ratio: '4/5' }
+      ];
+
+      var masonry = document.getElementById('masonry');
+      masonry.innerHTML = GALLERY.map(function (g, i) {
+        return '<button type="button" class="m-item reveal group relative block w-full overflow-hidden rounded-[1.25rem] text-left" data-cat="' + g.cat + '" data-index="' + i + '" aria-label="View: ' + g.cap + '">' +
+          '<div class="img-zoom" style="aspect-ratio:' + g.ratio + '"><img loading="lazy" class="primary h-full w-full object-cover" src="' + U(g.id, 900) + '" alt="' + g.cap + '" onerror="imgFallback(this)"></div>' +
+          '<div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-palm-950/70 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>' +
+          '<div class="m-cap pointer-events-none absolute inset-x-0 bottom-0 flex items-center justify-between p-5 text-white">' +
+          '<span class="font-display text-xl">' + g.cap + '</span><span class="grid h-9 w-9 place-items-center rounded-full bg-white/20 backdrop-blur"><i data-lucide="expand" class="h-4 w-4"></i></span></div>' +
+          '</button>';
+      }).join('');
+
+      var instaIds = ['1509233725247-49e657c54213', '1475483768296-6163e08872a1', '1565680018434-b513d5e5fd47', '1611892440504-42a792e24d32', '1473116763249-2faaef81ccda', '1586375300773-8384e3e4916f'];
+      document.getElementById('instaStrip').innerHTML = instaIds.map(function (id) {
+        return '<a href="https://www.instagram.com/explore/tags/samantbeachresort/" target="_blank" rel="noopener" class="group relative block aspect-square overflow-hidden rounded-xl" aria-label="Open #SamantBeachResort on Instagram">' +
+          '<img loading="lazy" src="' + U(id, 400) + '" alt="Guest moment at Samant Beach Resort" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" onerror="imgFallback(this)">' +
+          '<span class="absolute inset-0 grid place-items-center bg-terra/70 opacity-0 transition group-hover:opacity-100"><i data-lucide="heart" class="h-5 w-5 fill-white text-white"></i></span></a>';
+      }).join('');
+
+      /* ---------- Icons ---------- */
+      function renderIcons() { if (window.lucide) window.lucide.createIcons(); }
+      if (window.lucide) renderIcons(); else window.addEventListener('load', renderIcons);
+
+      /* ---------- Navbar ---------- */
+      var nav = document.getElementById('navbar');
+      var toTop = document.getElementById('toTop');
+      function onScroll() {
+        var y = window.scrollY;
+        nav.classList.toggle('scrolled', y > 40);
+        toTop.classList.toggle('show', y > 900);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      toTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+      // Active link highlighting
+      var links = document.querySelectorAll('.nav-link');
+      var sectionObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          links.forEach(function (l) { l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id); });
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      ['about', 'cottages', 'cuisine', 'experiences', 'gallery', 'contact'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) sectionObs.observe(el);
+      });
+
+      /* ---------- Mobile menu ---------- */
+      var menu = document.getElementById('mobileMenu');
+      var menuBtn = document.getElementById('menuBtn');
+      function setMenu(open) {
+        menu.classList.toggle('open', open);
+        menu.setAttribute('aria-hidden', String(!open));
+        menuBtn.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+      }
+      menuBtn.addEventListener('click', function () { setMenu(true); });
+      document.getElementById('menuClose').addEventListener('click', function () { setMenu(false); });
+      menu.querySelectorAll('.mm-link').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
+
+      /* ---------- Reveal on scroll ---------- */
+      var revealObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); revealObs.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.reveal').forEach(function (el) { revealObs.observe(el); });
+
+      /* ---------- Counters ---------- */
+      var countObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var el = e.target, end = +el.dataset.count, start = null;
+          (function step(ts) {
+            if (!start) start = ts;
+            var p = Math.min((ts - start) / 1400, 1);
+            el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+            if (p < 1) requestAnimationFrame(step);
+          })(performance.now());
+          countObs.unobserve(el);
+        });
+      }, { threshold: 0.6 });
+      document.querySelectorAll('[data-count]').forEach(function (el) { countObs.observe(el); });
+
+      /* ---------- Generic chip filter ---------- */
+      function setupFilter(btnAttr, itemSelector, itemAttr) {
+        var btns = document.querySelectorAll('[' + btnAttr + ']');
+        btns.forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b.classList.contains('active')));
+          b.addEventListener('click', function () {
+            var f = b.getAttribute(btnAttr);
+            btns.forEach(function (x) { x.classList.toggle('active', x === b); x.setAttribute('aria-pressed', String(x === b)); });
+            document.querySelectorAll(itemSelector).forEach(function (item) {
+              var tags = (item.getAttribute(itemAttr) || '').split(' ');
+              var show = f === 'all' || tags.indexOf(f) > -1;
+              item.classList.toggle('hide', !show);
+              if (show) {
+                item.classList.add('in');
+                item.animate([{ opacity: 0, transform: 'translateY(16px)' }, { opacity: 1, transform: 'none' }], { duration: 500, easing: 'cubic-bezier(.22,.61,.36,1)' });
+              }
+            });
+          });
+        });
+      }
+      setupFilter('data-exp-filter', '.exp-card', 'data-cat');
+      setupFilter('data-gal-filter', '.m-item', 'data-cat');
+      setupFilter('data-cottage-filter', '.cottage-card', 'data-tags');
+      // Cottage cards use .hide via display:none too
+      var style = document.createElement('style');
+      style.textContent = '.cottage-card.hide{display:none}';
+      document.head.appendChild(style);
+
+      /* ---------- Testimonials ---------- */
+      var track = document.getElementById('tTrack');
+      function slide(dir) {
+        var card = track.firstElementChild;
+        var step = card ? card.getBoundingClientRect().width + 20 : 400;
+        var atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 8;
+        if (dir > 0 && atEnd) track.scrollTo({ left: 0, behavior: 'smooth' });
+        else track.scrollBy({ left: dir * step, behavior: 'smooth' });
+      }
+      document.getElementById('tPrev').addEventListener('click', function () { slide(-1); });
+      document.getElementById('tNext').addEventListener('click', function () { slide(1); });
+      var auto = setInterval(function () { slide(1); }, 6000);
+      ['pointerenter', 'touchstart', 'focusin'].forEach(function (ev) {
+        track.addEventListener(ev, function () { clearInterval(auto); }, { passive: true });
+      });
+
+      /* ---------- Modal helpers ---------- */
+      var lastFocus = null;
+      function openModal(m) {
+        lastFocus = document.activeElement;
+        m.classList.add('open');
+        m.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        var f = m.querySelector('select, input, button');
+        if (f) setTimeout(function () { f.focus({ preventScroll: true }); }, 350);
+      }
+      function closeModal(m) {
+        m.classList.remove('open');
+        m.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (lastFocus) lastFocus.focus({ preventScroll: true });
+      }
+
+      /* ---------- Booking modal ---------- */
+      var modal = document.getElementById('bookingModal');
+      var form = document.getElementById('bookingForm');
+      var fIn = document.getElementById('fIn'), fOut = document.getElementById('fOut');
+      var fCottage = document.getElementById('fCottage');
+      var fGuestsOut = document.getElementById('fGuests');
+      var fErr = document.getElementById('fError'), fNights = document.getElementById('fNights');
+      var guests = 2;
+
+      function iso(d) { var z = new Date(d.getTime() - d.getTimezoneOffset() * 60000); return z.toISOString().slice(0, 10); }
+      var today = new Date();
+      fIn.min = iso(today);
+      fOut.min = iso(new Date(today.getTime() + 864e5));
+
+      document.querySelectorAll('[data-book]').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          e.preventDefault();
+          var c = el.getAttribute('data-book');
+          if (c) fCottage.value = c;
+          openModal(modal);
+        });
+      });
+      modal.querySelectorAll('[data-close]').forEach(function (el) { el.addEventListener('click', function () { closeModal(modal); }); });
+
+      document.querySelectorAll('[data-guests]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          guests = Math.min(8, Math.max(1, guests + (+b.dataset.guests)));
+          fGuestsOut.textContent = guests + (guests === 1 ? ' Guest' : ' Guests');
+        });
+      });
+
+      function nights() {
+        if (!fIn.value || !fOut.value) return 0;
+        return Math.round((new Date(fOut.value) - new Date(fIn.value)) / 864e5);
+      }
+      function updateNights() {
+        if (fIn.value) {
+          var next = new Date(new Date(fIn.value).getTime() + 864e5);
+          fOut.min = iso(next);
+          if (!fOut.value || fOut.value <= fIn.value) fOut.value = iso(next);
+        }
+        var n = nights();
+        fNights.textContent = n > 0 ? n + (n === 1 ? ' night' : ' nights') + ' at Samant Beach Resort' : '';
+      }
+      fIn.addEventListener('change', updateNights);
+      fOut.addEventListener('change', updateNights);
+
+      function fmt(v) { return new Date(v).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }); }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('fName').value.trim();
+        var note = document.getElementById('fNote').value.trim();
+        var err = '';
+        if (!fIn.value || !fOut.value) err = 'Please choose your check-in and check-out dates.';
+        else if (nights() < 1) err = 'Check-out must be after check-in.';
+        else if (!name) err = 'Please tell us your name.';
+        fErr.textContent = err;
+        fErr.classList.toggle('hidden', !err);
+        if (err) return;
+
+        var msg = 'Hello Samant Beach Resort, I would like to inquire about booking a cottage.\n\n' +
+          'Name: ' + name + '\n' +
+          'Cottage: ' + fCottage.value + '\n' +
+          'Check-in: ' + fmt(fIn.value) + '\n' +
+          'Check-out: ' + fmt(fOut.value) + ' (' + nights() + ' night' + (nights() > 1 ? 's' : '') + ')\n' +
+          'Guests: ' + guests +
+          (note ? '\nRequests: ' + note : '');
+        window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+      });
+
+      /* ---------- Lightbox ---------- */
+      var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap');
+      var lbList = [], lbIdx = 0;
+      function showLb(i) {
+        lbIdx = (i + lbList.length) % lbList.length;
+        var g = GALLERY[lbList[lbIdx]];
+        delete lbImg.dataset.failed;
+        lbImg.src = U(g.id, 1800);
+        lbImg.alt = g.cap;
+        lbCap.textContent = g.cap;
+      }
+      masonry.addEventListener('click', function (e) {
+        var item = e.target.closest('.m-item'); if (!item) return;
+        lbList = Array.prototype.filter.call(masonry.querySelectorAll('.m-item'), function (x) { return !x.classList.contains('hide'); })
+          .map(function (x) { return +x.dataset.index; });
+        showLb(lbList.indexOf(+item.dataset.index));
+        openModal(lb);
+      });
+      lb.addEventListener('click', function (e) {
+        var a = e.target.closest('[data-lb]');
+        if (a) { var t = a.dataset.lb; if (t === 'close') closeModal(lb); else showLb(lbIdx + (t === 'next' ? 1 : -1)); }
+        else if (e.target === lb) closeModal(lb);
+      });
+
+      /* ---------- Keyboard ---------- */
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          if (lb.classList.contains('open')) closeModal(lb);
+          else if (modal.classList.contains('open')) closeModal(modal);
+          else if (menu.classList.contains('open')) setMenu(false);
+        }
+        if (lb.classList.contains('open')) {
+          if (e.key === 'ArrowRight') showLb(lbIdx + 1);
+          if (e.key === 'ArrowLeft') showLb(lbIdx - 1);
+        }
+      });
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
